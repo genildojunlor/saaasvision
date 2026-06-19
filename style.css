@@ -865,13 +865,3 @@ nav a:hover{
     }
 
 }
-
-html,
-body{
-    overflow-x:hidden;
-    width:80%;
-}
-
-*{
-    box-sizing:border-box;
-}
