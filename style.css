@@ -11,12 +11,6 @@ html{
     scroll-behavior:smooth;
 }
 
-body{
-    background:#050505;
-    color:#fff;
-    overflow-x:hidden;
-}
-
 html,
 body{
     max-width:100%;
@@ -809,66 +803,81 @@ nav a:hover{
    RESPONSIVO MOBILE
 ========================= */
 
-@media (max-width: 768px){
+@media (max-width:768px){
+
+    .header{
+        padding:15px 20px;
+    }
 
     .hero{
         grid-template-columns:1fr;
         text-align:center;
-        gap:40px;
+        gap:30px;
         padding:120px 20px 60px;
     }
 
-    .hero-content h1{
-        font-size:2rem;
+    .hero h1{
+        font-size:38px;
         line-height:1.2;
     }
 
-    .hero-content p{
-        font-size:1rem;
+    .hero p{
+        font-size:16px;
+    }
+
+    .hero-features{
+        justify-content:center;
+    }
+
+    .hero-buttons{
+        flex-direction:column;
+        gap:15px;
+    }
+
+    .btn-primary,
+    .btn-secondary{
+        width:100%;
     }
 
     .hero-image img{
         width:100%;
         max-width:100%;
-        margin:auto;
+        height:auto;
     }
 
-    .benefits-grid,
+    .beneficios-grid,
     .ebooks-grid,
-    .saiba-grid,
-    .faq-grid{
+    .extras-grid,
+    .pacote-beneficios,
+    .footer-container{
         grid-template-columns:1fr;
     }
 
-    .ebook-card{
-        width:100%;
+    .pacote-box{
+        padding:30px 20px;
     }
 
-    .buttons{
-        display:flex;
-        flex-direction:column;
-        gap:15px;
+    .pacote-box h2{
+        font-size:30px;
     }
 
-    .btn{
-        width:100%;
-        text-align:center;
+    .preco-atual{
+        font-size:42px;
     }
 
     .section-title h2{
-        font-size:2rem;
+        font-size:32px;
     }
 
-    .section-title p{
-        font-size:1rem;
+    .aviso-box{
+        padding:30px 20px;
     }
 
-    .package-card{
-        padding:25px;
+    .faq-item{
+        padding:20px;
     }
 
     .footer{
         text-align:center;
     }
-
 }
