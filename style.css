@@ -9,11 +9,13 @@
 
 html{
     scroll-behavior:smooth;
+    background:#050505;
 }
 
 html,
 body{
-    max-width:100%;
+    background:#050505;
+    color:#fff;
     overflow-x:hidden;
 }
 
@@ -880,4 +882,8 @@ nav a:hover{
     .footer{
         text-align:center;
     }
+}
+
+section{
+    background:#050505;
 }
