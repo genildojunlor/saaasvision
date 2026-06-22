@@ -887,3 +887,56 @@ nav a:hover{
 section{
     background:#050505;
 }
+
+/* ==========================
+   VIDEO DEMONSTRAÇÃO
+========================== */
+
+.video-demo{
+    padding:100px 0;
+    text-align:center;
+}
+
+.video-demo .section-title span{
+    color:#d4af37;
+    font-weight:600;
+    letter-spacing:3px;
+}
+
+.video-demo .section-title h2{
+    font-size:3rem;
+    margin:15px 0;
+}
+
+.video-demo .section-title p{
+    color:#bdbdbd;
+    max-width:700px;
+    margin:0 auto 40px;
+}
+
+.video-wrapper{
+    max-width:1000px;
+    margin:auto;
+    border-radius:25px;
+    overflow:hidden;
+    border:1px solid rgba(212,175,55,.25);
+    box-shadow:0 0 40px rgba(212,175,55,.15);
+}
+
+.video-wrapper iframe{
+    width:100%;
+    aspect-ratio:16/9;
+    border:none;
+}
+
+@media(max-width:768px){
+
+    .video-demo{
+        padding:60px 0;
+    }
+
+    .video-demo .section-title h2{
+        font-size:2rem;
+    }
+
+}
