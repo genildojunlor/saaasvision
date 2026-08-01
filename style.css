@@ -914,6 +914,34 @@ section{
     border-radius:20px;
     border:1px solid rgba(255,255,255,.08);
     box-shadow:0 20px 60px rgba(0,0,0,.45);
+} 
+
+.system-preview{
+    padding:80px 0;
+    text-align:center;
+}
+
+.system-preview h2{
+    font-size:2.3rem;
+    margin-bottom:15px;
+    color:#fff;
+}
+
+.system-preview p{
+    color:#bcbcbc;
+    max-width:700px;
+    margin:0 auto 40px;
+    line-height:1.7;
+}
+
+.system-preview img{
+    width:100%;
+    max-width:1100px;
+    display:block;
+    margin:auto;
+    border-radius:20px;
+    border:1px solid rgba(255,255,255,.08);
+    box-shadow:0 20px 60px rgba(0,0,0,.45);
 }
 
 /* ==========================
